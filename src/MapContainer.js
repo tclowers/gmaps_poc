@@ -59,11 +59,11 @@ export class MapContainer extends React.Component {
             height: '100%'
         }
 
-        let userMarker = {
-            url: {pointerSVG},
-            size: new this.props.google.maps.Size(64, 64),
-            scaledSize: new this.props.google.maps.Size(128, 64)
-        }
+        // let userMarker = {
+        //     url: {pointerSVG},
+        //     size: new this.props.google.maps.Size(64, 64),
+        //     scaledSize: new this.props.google.maps.Size(128, 64)
+        // }
 
         return (
             <Map google={this.props.google}
